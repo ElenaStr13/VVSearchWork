@@ -1,0 +1,66 @@
+@reference "../../styles/global.css";
+
+.footer {
+  @apply bg-purple-950 px-6 py-14 text-white;
+}
+
+.footer__container {
+  @apply mx-auto max-w-6xl;
+}
+
+/* Main content */
+
+.footer__content {
+  @apply grid grid-cols-1 gap-10;
+  @apply sm:grid-cols-2 lg:grid-cols-4;
+}
+
+/* Brand */
+
+.footer__brand {
+  @apply max-w-xs;
+}
+
+.footer__logo {
+  @apply inline-block text-3xl font-bold text-white no-underline;
+  @apply transition hover:text-purple-200;
+}
+
+.footer__description {
+  @apply mt-4 leading-7 text-purple-200;
+}
+
+/* Columns */
+
+.footer__column {
+  @apply flex flex-col items-start gap-3;
+}
+
+.footer__title {
+  @apply mb-2 text-lg font-bold text-white;
+}
+
+.footer__link {
+  @apply text-purple-200 no-underline;
+  @apply transition hover:text-white;
+}
+
+/* Bottom */
+
+.footer__bottom {
+  @apply mt-12 flex flex-col gap-5 border-t border-purple-800 pt-7;
+  @apply md:flex-row md:items-center md:justify-between;
+}
+
+.footer__copyright {
+  @apply m-0 text-sm text-purple-300;
+}
+
+.footer__legal {
+  @apply flex flex-wrap gap-x-6 gap-y-2;
+}
+
+.footer__legal-link {
+  @apply text-sm text-purple-300 no-underline;
+  @apply transition hover:text-white;
+}

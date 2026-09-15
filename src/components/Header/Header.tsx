@@ -10,9 +10,7 @@ const Header = () => {
             </Link>
       <nav className="header__nav">
         <Link to="/">VV Work</Link>
-
-        <Link to="/">Знайти роботу</Link>
-        <Link to="/partners/vv-work">Партнери</Link>
+        <Link to="/vacancies">Знайти роботу</Link>
         <Link to="/contacts">Контакти</Link>
       </nav>
       </div>

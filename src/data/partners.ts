@@ -25,4 +25,12 @@ export const partners: Partner[] = [
     city: 'Prague',
     description: 'Робота у виробництві та готельно-ресторанній сфері.',
   },
+{
+  id: 4,
+  name: 'GlobalWork',
+  slug: 'globalwork',
+  country: 'Netherlands',
+  city: 'Amsterdam',
+  description: 'Вакансії у будівництві, логістиці та сфері обслуговування.',
+},
 ];

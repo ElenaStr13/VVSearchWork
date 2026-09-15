@@ -1,0 +1,49 @@
+@reference "../../styles/global.css";
+
+.categories {
+  @apply bg-white px-6 py-20;
+}
+
+.categories__container {
+  @apply mx-auto max-w-6xl;
+}
+
+.categories__header {
+  @apply mb-10 max-w-2xl;
+}
+
+.categories__eyebrow {
+  @apply mb-2 font-semibold text-purple-600;
+}
+
+.categories__title {
+  @apply mb-4 text-4xl font-bold text-purple-950;
+}
+
+.categories__description {
+  @apply text-lg text-gray-600;
+}
+
+.categories__grid {
+  @apply grid grid-cols-1 gap-5;
+  @apply sm:grid-cols-2 lg:grid-cols-3;
+}
+
+.category-card {
+  @apply flex min-h-52 cursor-pointer flex-col items-start rounded-2xl;
+  @apply border border-purple-100 bg-amber-50/60 p-6 text-left;
+  @apply transition duration-200;
+  @apply hover:-translate-y-1 hover:border-purple-200 hover:shadow-lg;
+}
+
+.category-card__title {
+  @apply mb-3 text-xl font-bold text-purple-950;
+}
+
+.category-card__description {
+  @apply mb-6 leading-6 text-gray-600;
+}
+
+.category-card__link {
+  @apply mt-auto font-semibold text-purple-600;
+}
