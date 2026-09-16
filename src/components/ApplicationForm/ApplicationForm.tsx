@@ -51,7 +51,7 @@ const ApplicationForm = ({
         'Введіть коректний телефон або Telegram.';
     }
 
-    if (message.length > 501) {
+    if (message.length > 500) {
       newErrors.message =
         'Повідомлення не може перевищувати 500 символів.';
     }
